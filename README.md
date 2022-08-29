@@ -15,24 +15,26 @@
 #### 数据库定义
 数据库名称为：vocabulary
 
-数据表			表名			         字段
-三级词汇表		three			English    	Chinese
-重要词汇表		imporant		English	        Chinese
-专业词汇表		professional		English	        Chinese
-Java词汇表		java			English	        Chinese
-MySQL词汇表        	mysql			English	        Chinese
-Git词汇表		git			English    	Chinese
-Html词汇表		html			English	        Chinese
 
-用户数据表		information		user	 account	password	
-用户词汇表		user 			user	 English	 Chinese
+
+> 数据表			表名			         字段
+> 三级词汇表		three			English    	Chinese
+> 重要词汇表		imporant		English	        Chinese
+> 专业词汇表		professional		English	        Chinese
+> Java词汇表		java			English	        Chinese
+> MySQL词汇表        	mysql			English	        Chinese
+> Git词汇表		git			English    	Chinese
+> Html词汇表		html			English	        Chinese
+> 
+> 用户数据表		information		user	 account	password	
+> 用户词汇表		user 			user	 English	 Chinese
 
 其中的information的user字段与
 user表中的user字段一致都为用户名
 
 数据库关系文档：https://www.aliyundrive.com/s/xDxGFZWcBUm
 
-#### 规范
+#### 代码规范
 
 1、Java 代码的存放规定：
 运行界面代码与功能的代码放入至 Interface
