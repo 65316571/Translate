@@ -8,82 +8,47 @@
 
 
 #### 安装教程
-
-数据库部署：
-先去网站中下载“数据库”文件中词汇数据
-下载网站为：通过JavaSwing开发的中英翻译训练系统 (gitee.com)
-
-选择数据库
-![输入图片说明](%E8%A1%A5%E5%85%85/%E5%9B%BE%E7%89%87/t1.png)
-
-下载词汇
-![输入图片说明](%E8%A1%A5%E5%85%85/%E5%9B%BE%E7%89%87/JV%25R2SUD1L7KQ%5BUVB%7BOK6TW.png)
-
-再来建立一个vocabulary数据库
-![输入图片说明](%E8%A1%A5%E5%85%85/%E5%9B%BE%E7%89%87/N%60UE$8E$(NW995LT1HNZ6JF.png)
-右击选在“导入向导”
-
-选择文件
-![输入图片说明](%E8%A1%A5%E5%85%85/%E5%9B%BE%E7%89%87/9)6VG_8F%5B53VKX2YM1D)RUX.png)
-
-选择刚刚下载的“词汇”
-![输入图片说明](%E8%A1%A5%E5%85%85/%E5%9B%BE%E7%89%87/M2H%5DJ1RE%7B0U$6@IDVCHJN%7D9.png)
-
-再选择全部表
-![输入图片说明](%E8%A1%A5%E5%85%85/%E5%9B%BE%E7%89%87/HF%25MEH2VE%25DQ4GAV8%7DA1XM3.png)
-
-之后 全部点击“下一步”
-![输入图片说明](%E8%A1%A5%E5%85%85/%E5%9B%BE%E7%89%87/2O7Y((APQYK0J@RM_FSB%7DIP.png)
-
-直到此图为止，然后点击“开始”
-![输入图片说明](%E8%A1%A5%E5%85%85/%E5%9B%BE%E7%89%87/X0C%5B~HE~IU%25TN9ZM7R8B(U6.png)
-
-成功完成后，可以看见数据表都建立完成
-![输入图片说明](%E8%A1%A5%E5%85%85/%E5%9B%BE%E7%89%87/$6YK1WCFD@ASXJF@KJB27JW.jpg)
-
-
-安装项目部署：
-首先在gitee中下载代码：
-下载网站为：通过JavaSwing开发的中英翻译训练系统 (gitee.com)
-
-再将下载的代码使用编译器打开
-
-img 		存放图片文件
-	 
-lib 		存放JAR调用库
-
-src 		存放相关代码	
-
-
-
-建立一个文件夹并设置为根目录，再里面存放下载完成的对应文件
-
-
-
-代码中可能需要更改的内容：
-
-这里的数据为根据数据库的名称，账号，密码。
-需要与数据库的一致否则将会报错，可以更改成与数据库一致的内容。
-
-
-点击lib文件选中，对应的jar依赖包
-右键点击
-
-选择构建模块
-
-即可完成
-其中其中我才用的数据库是8.0
-所以我使用的JAR依赖包需要与之对应8.0，数据库版本不同使用的依赖包也不相同。
-
-
-补充文件夹中分别存放了：5.0和8.0的jar架包
-
-
 安装文档：https://www.aliyundrive.com/s/YUajDqNqp9S
 
 
-#### 使用说明
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+#### 数据库定义
+数据库名称为：vocabulary
+
+数据表			表名			         字段
+三级词汇表		three			English    	Chinese
+重要词汇表		imporant		English	        Chinese
+专业词汇表		professional		English	        Chinese
+Java词汇表		java			English	        Chinese
+MySQL词汇表        	mysql			English	        Chinese
+Git词汇表		git			English    	Chinese
+Html词汇表		html			English	        Chinese
+
+用户数据表		information		user	 account	password	
+用户词汇表		user 			user	 English	 Chinese
+
+其中的information的user字段与
+user表中的user字段一致都为用户名
+
+数据库关系文档：https://www.aliyundrive.com/s/xDxGFZWcBUm
+
+#### 规范
+
+1、Java 代码的存放规定：
+运行界面代码与功能的代码放入至 Interface
+
+数据库交互的代码放入至 JDBC文件夹中
+
+全局变量与方法放入至Global包中
+其对应内容分别存入至：Global_date与Global_library类中
+
+2、Java 类的存放规范：
+每一个类对应一个界面，如有多个界面或是功能则建立对应文件夹
+在文件夹中 存放其中的功能类。
+
+3、Java 代码的命名规定：
+项目名称、类名、函数、变量名皆为英文，其中 常量为大写
+其中类名需要在前面写出对应包名 且首字母需大写
+相关的变量注释都在对应代码块中。
+图片展示文档：https://www.aliyundrive.com/s/xDxGFZWcBUm
+
