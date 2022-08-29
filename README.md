@@ -1,6 +1,6 @@
 #  Translate
 
-#### 介绍
+#### 项目介绍
 通过JavaSwing开发的中英翻译训练系统
 
 #### 软件架构
@@ -8,6 +8,8 @@
 
 
 #### 安装教程
+MySQL数据库部署及相关代码变化
+
 安装文档：https://www.aliyundrive.com/s/YUajDqNqp9S
 
 
