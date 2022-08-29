@@ -17,7 +17,7 @@
 ![输入图片说明](%E8%A1%A5%E5%85%85/%E5%9B%BE%E7%89%87/t1.png)
 
 下载词汇
-![输入图片说明](%E8%A1%A5%E5%85%85/%E5%9B%BE%E7%89%87/%5B%60MKY)(4E)LY(0WHQ@G)DHN.png)
+![输入图片说明](%E8%A1%A5%E5%85%85/%E5%9B%BE%E7%89%87/JV%25R2SUD1L7KQ%5BUVB%7BOK6TW.png)
 
 再来建立一个vocabulary数据库
 ![输入图片说明](%E8%A1%A5%E5%85%85/%E5%9B%BE%E7%89%87/N%60UE$8E$(NW995LT1HNZ6JF.png)
