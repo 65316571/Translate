@@ -1,4 +1,4 @@
-#  Translate
+#  TranslateSystem 
 
 #### 项目介绍
 通过JavaSwing开发的中英翻译训练系统
@@ -8,7 +8,7 @@
 
 
 #### 安装教程
-MySQL数据库部署及相关代码变化
+MySQL数据库部署及相关代码改变
 
 安装文档：https://www.aliyundrive.com/s/YUajDqNqp9S
 
