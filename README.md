@@ -25,7 +25,7 @@
 专业词汇表		professional	English	    Chinese
 Java词汇表		java			English    Chinese
 MySQL词汇表		mysql			English	    Chinese
-Git词汇表		git			English	    Chinese
+Git词汇表		git			    English	    Chinese
 Html词汇表		html			English   Chinese
 用户数据表		information		user		 account		password	
 用户词汇表		user 			user	 	English		 Chinese
